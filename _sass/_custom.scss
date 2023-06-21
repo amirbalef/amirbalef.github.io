@@ -50,27 +50,36 @@ html[data-theme='dark'] {
   }
   
     /*************************************************
+html[data-theme='dark'] {
+	--global-bg-color: #000000;//#252525;
+	--global-theme-color: #B389F5; 
+	--global-hover-color: #B389F5; 
+	--global-footer-bg-color: #2f2f2f;
+    --global-footer-text-color: #abaaaa;
+    --global-footer-link-color: #797979;
+    --global-code-bg-color: #101010;
+    --global-divider-color: #424246;
+	/*************************************************
  	* CV
  	**************************************************/
 	.list-group-flush {
 
-		> .list-group-item-cv {
-			border: 1px solid #f8f9fa4f;
+  		> .list-group-item-cv {
+    		border: 1px solid #f8f9fa4f;
 			border-width: 0 0 1px!important;
 
-			&:last-child {
-				border-bottom-width: 0!important;
-			}
-		}
+    		&:last-child {
+      			border-bottom-width: 0!important;
+    		}
+  		}
 	}
 
 	.publications ol.bibliography li .abbr abbr,
 	.publications ol.bibliography li .abbr abbr a {
-	color: var(--global-bg-color)!important;
+    color: var(--global-bg-color)!important;
 	}
 
 }
-
 
 // Mobile devices. With class="hidden-mobile" the element not show
 @media (max-width: 576px) {
