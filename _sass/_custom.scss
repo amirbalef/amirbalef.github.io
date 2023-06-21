@@ -1,0 +1,124 @@
+/*******************************************************************************
+ * Styles custom
+ ******************************************************************************/
+
+// GLOBAL THEME
+
+html[data-theme='dark'] {
+	--global-bg-color: #000000;//#252525;
+	--global-theme-color: #B389F5; 
+	--global-hover-color: #B389F5; 
+	--global-footer-bg-color: #2f2f2f;
+    --global-footer-text-color: #abaaaa;
+    --global-footer-link-color: #797979;
+    --global-code-bg-color: #101010;
+    --global-divider-color: #424246;
+	/*************************************************
+ 	* CV
+ 	**************************************************/
+	.list-group-flush {
+
+  		> .list-group-item-cv {
+    		border: 1px solid #f8f9fa4f;
+			border-width: 0 0 1px!important;
+
+    		&:last-child {
+      			border-bottom-width: 0!important;
+    		}
+  		}
+	}
+
+	.publications ol.bibliography li .abbr abbr,
+	.publications ol.bibliography li .abbr abbr a {
+    color: var(--global-bg-color)!important;
+	}
+
+}
+
+// Mobile devices. With class="hidden-mobile" the element not show
+@media (max-width: 576px) {
+        .hidden-mobile {
+          display: none;
+        }
+
+        // Publications - Year display in mobile
+        h2.year {
+    		color: var(--global-divider-color);
+    		border-bottom: 1px solid var(--global-divider-color);
+    		margin-bottom: 2rem!important;
+    		// reset
+    		border-top: 0 !important;
+    		padding-top: 0 !important;
+    		margin-top: 0 !important;
+		}
+}
+
+// General
+
+
+// Title
+.title {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+// About
+
+
+/*******************************************************************************
+ * HEAD
+ ******************************************************************************/
+// Social icons
+.navbar-brand.social { 
+	font-size: 1.2rem!important;
+}
+
+
+/*******************************************************************************
+ * Scholar / Bibliography
+ ******************************************************************************/
+
+// Author font
+div.author {
+	font-size: 0.8rem;
+}
+
+// Booktitle, journal, etc font
+div.periodical {
+	font-size: 0.9rem;
+}
+
+// Bib type style
+p.bibtitle {
+    color: var(--global-theme-color);
+        font-weight: 400;
+        font-size: 1.5em;
+        text-align: center;
+        border-bottom: 1px solid #bbb;
+}
+
+/*******************************************************************************
+ * CODING
+ ******************************************************************************/
+.lineno {
+    margin-right: 10px;
+}
+// Char/String color
+.highlight .s1 {
+    color: rgb(160, 32, 240);
+}
+// Comment color
+.highlight .c1 {
+color: rgb(34, 139, 34);
+}
+// For, if switch,... color
+.highlight .k {
+color: rgb(0, 0, 255);
+}
+
+
+/*******************************************************************************
+ * SOCIAL
+ ******************************************************************************/
+.social .contact-icons {
+    font-size: 2rem;
+}
