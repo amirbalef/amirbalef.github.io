@@ -23,5 +23,3 @@ social: true  # includes social icons at the bottom of the page
 
 <h2>Hi!</h2> 
 
-I completed <strong>BSc Telecommunications</strong> from [University of Alicante](https://www.ua.es/en) and <strong>MSc Acoustics</strong> from [Polytechnic University of Valencia](http://www.upv.es/en). 
-
