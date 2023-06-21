@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-<strong> Scientific Assistants at <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/decision-making/team/">Decision Making Group</a> <small>University of Tübingen</small>
+subtitle: <strong> Scientific Assistants at <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/decision-making/team/">Decision Making Group</a> <small>University of Tübingen</small>
 
 description: I'm an AI researcher. My current interests are Online Learning, Federated Learning, Hardware acceleration and Intelligent Embedded Systems. I am passionate about knowing further fields and being able to contribute with my knowledge from other areas.
 
