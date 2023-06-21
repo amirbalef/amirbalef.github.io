@@ -22,4 +22,4 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <h2>Hi!</h2> 
-
+I received my M.Sc. in Electrical Engineering (Digital Systems) from the Sharif University of Technology, I am currently working as a research assistant at the University of Tubingen.
