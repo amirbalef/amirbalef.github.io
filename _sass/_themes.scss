@@ -90,4 +90,25 @@ html[data-theme='dark'] {
   .repo-img-dark {
     display: block;
   }
+  
+    /*************************************************
+ 	* CV
+ 	**************************************************/
+	.list-group-flush {
+
+		> .list-group-item-cv {
+			border: 1px solid #f8f9fa4f;
+			border-width: 0 0 1px!important;
+
+			&:last-child {
+				border-bottom-width: 0!important;
+			}
+		}
+	}
+
+	.publications ol.bibliography li .abbr abbr,
+	.publications ol.bibliography li .abbr abbr a {
+	color: var(--global-bg-color)!important;
+	}
+
 }
