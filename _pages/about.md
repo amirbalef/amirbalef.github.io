@@ -7,7 +7,7 @@ subtitle: <strong> Scientific Assistants at <a href="https://uni-tuebingen.de/en
 description: I'm an AI researcher. My current interests are Online Learning, Federated Learning, Hardware acceleration and Intelligent Embedded Systems. I am passionate about knowing further fields and being able to contribute with my knowledge from other areas.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.png
   image_circular: true # crops the image to make it circular
   address: >
