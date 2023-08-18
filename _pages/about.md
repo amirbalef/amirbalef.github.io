@@ -8,7 +8,7 @@ description: I'm an AI researcher. My current interests are Online Learning, Fed
 
 profile:
   align: left
-  image: prof_pic.JPG
+  image: prof_pic.png
   image_circular: true # crops the image to make it circular
   address: >
     <p>Maria-von-Linden-Str. 6</p>
