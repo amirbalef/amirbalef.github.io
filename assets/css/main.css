@@ -1103,53 +1103,8 @@ html[data-theme=dark] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
   /*************************************************
-  html[data-theme='dark'] {
-    --global-bg-color: #1C1C1D;
-    --global-code-bg-color: #2c3237;
-    --global-text-color: #e8e8e8;
-    --global-text-color-light: #e8e8e8;
-    --global-theme-color: #00ab37;
-    --global-hover-color: #00ab37;
-    --global-hover-text-color: #ffffff;
-    --global-footer-bg-color: #e8e8e8;
-    --global-footer-text-color: #1C1C1D;
-    --global-footer-link-color: #000000;
-    --global-distill-app-color: #e8e8e8;
-    --global-divider-color: #424246;
-    --global-card-bg-color: #212529;
-
-    --global-tip-block: #42b983;
-    --global-tip-block-bg: #e2f5ec;
-    --global-tip-block-text: #215d42;
-    --global-tip-block-title: #359469;
-    --global-warning-block: #e7c000;
-    --global-warning-block-bg: #fff8d8;
-    --global-warning-block-text: #6b5900;
-    --global-warning-block-title: #b29400;
-    --global-danger-block: #c00;
-    --global-danger-block-bg: #ffe0e0;
-    --global-danger-block-text: #600;
-    --global-danger-block-title: #c00;
-
-    .fa-sun {
-      padding-left: 10px;
-      padding-top: 12px;
-      display : block;
-    }
-    .fa-moon {
-      display : none;
-    }
-
-    .repo-img-light {
-      display: none;
-    }
-    .repo-img-dark {
-      display: block;
-    }
-
-      /*************************************************
-   	* CV
-   	**************************************************/
+  * CV
+  **************************************************/
 }
 html[data-theme=dark] .fa-sun {
   padding-left: 10px;
