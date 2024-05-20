@@ -1,84 +1,85 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@ARTICLE{9509410,
+  author={Nguyen, Tuan Dung and Balef, Amir R. and Dinh, Canh T. and Tran, Nguyen H. and Ngo, Duy T. and Anh Le, Tuan and Vo, Phuong L.},
+  journal={IEEE Communications Letters}, 
+  title={Accelerating Federated Edge Learning}, 
+  year={2021},
+  volume={25},
+  number={10},
+  pages={3282-3286},
+  abstract={Transferring large models in federated learning (FL) networks is often hindered by clients’ limited bandwidth. We propose  $\textsf {FedAA}$ , an FL algorithm which achieves fast convergence by exploiting the regularized Anderson acceleration (AA) on the global level. First, we demonstrate that FL can benefit from acceleration methods in numerical analysis. Second,  $\textsf {FedAA}$  improves the convergence rate for quadratic losses and improves the empirical performance for smooth and strongly convex objectives, compared to FedAvg, an FL algorithm using gradient descent (GD) local updates. Experimental results demonstrate that employing AA can significantly improve the performance of FedAvg, even when the objective is non-convex.},
+  keywords={},
+  doi={10.1109/LCOMM.2021.3103536},
+  ISSN={1558-2558},
+  month={Oct},
+  html={https://ieeexplore.ieee.org/abstract/document/9509410}
+  }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
+@ARTICLE{9695269,
+  author={Dinh, Canh T. and Tran, Nguyen H. and Nguyen, Tuan Dung and Bao, Wei and Balef, Amir Rezaei and Zhou, Bing B. and Zomaya, Albert Y.},
+  journal={IEEE Transactions on Parallel and Distributed Systems}, 
+  title={DONE: Distributed Approximate Newton-type Method for Federated Edge Learning}, 
+  year={2022},
+  volume={33},
+  number={11},
+  pages={2648-2660},
+  abstract={There is growing interest in applying distributed machine learning to edge computing, forming federated edge learning. Federated edge learning faces non-i.i.d. and heterogeneous data, and the communication between edge workers, possibly through distant locations and with unstable wireless networks, is more costly than their local computational overhead. In this work, we propose ${{\sf DONE}}$DONE, a distributed approximate Newton-type algorithm with fast convergence rate for communication-efficient federated edge learning. First, with strongly convex and smooth loss functions, ${{\sf DONE}}$DONE approximates the Newton direction in a distributed manner using the classical Richardson iteration on each edge worker. Second, we prove that ${{\sf DONE}}$DONE has linear-quadratic convergence and analyze its communication complexities. Finally, the experimental results with non-i.i.d. and heterogeneous data show that ${{\sf DONE}}$DONE attains a comparable performance to Newton's method. Notably, ${{\sf DONE}}$DONE requires fewer communication iterations compared to distributed gradient descent and outperforms DANE, FEDL, and GIANT, state-of-the-art approaches, in the case of non-quadratic loss functions.},
+  keywords={},
+  doi={10.1109/TPDS.2022.3146253},
+  ISSN={1558-2183},
+  month={Nov},
+  html={https://ieeexplore.ieee.org/abstract/document/9695269}
+  }
+  
+@ARTICLE{10044185,
+  author={Balef, Amir Rezaei and Maghsudi, Setareh},
+  journal={IEEE Wireless Communications Letters}, 
+  title={Piecewise-Stationary Multi-Objective Multi-Armed Bandit With Application to Joint Communications and Sensing}, 
+  year={2023},
+  volume={12},
+  number={5},
+  pages={809-813},
+  abstract={We study a multi-objective multi-armed bandit problem in a dynamic environment. The problem portrays a decision-maker that sequentially selects an arm from a given set. If selected, each action produces a reward vector, where every element follows a piecewise-stationary Bernoulli distribution. The agent aims at choosing an arm among the Pareto optimal set of arms to minimize its regret. We propose a Pareto generic upper confidence bound (UCB)-based algorithm with change detection to solve this problem. By developing the essential inequalities for multi-dimensional spaces, we establish that our proposal guarantees a regret bound in the order of  $\gamma _{T}\log (T/{\gamma _{T}})$  when the number of breakpoints  $\gamma _{T}$  is known. Without this assumption, the regret bound of our algorithm is  $\gamma _{T}\log (T)$ . Finally, we formulate an energy-efficient waveform design problem in an integrated communication and sensing system as a toy example. Numerical experiments on the toy example and synthetic and real-world datasets demonstrate the efficiency of our policy compared to the current methods.},
+  keywords={},
+  doi={10.1109/LWC.2023.3244686},
+  ISSN={2162-2345},
   month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+  html={https://ieeexplore.ieee.org/document/10044185}
+  }
+  
+@INPROCEEDINGS{10104580,
+  author={Balef, Amir Rezaei and Maghsudi, Setareh and Stanczak, Slawomir},
+  booktitle={WSA & SCC 2023; 26th International ITG Workshop on Smart Antennas and 13th Conference on Systems, Communications, and Coding}, 
+  title={Adaptive Energy-Efficient Waveform Design For Joint Communication and Sensing using Multiobjective Multiarmed Bandits}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={We study the transmission power adaptation problem for waveform design in a JCAS system. The challenge arises due to the information shortage about crucial factors such as channel quality and their time-varying nature. First, we formalize two performance metrics of such a system, namely, the probability of detection (PD) and the data information rate (DIR) of fading channels. We then optimize the transmission energy efficiency given constraints on the minimum values for the metrics mentioned above. Under uncertainty about the channel quality and dynamicity in a network, the problem is solvable as a piecewise-stationary multi-objective multi-armed bandit. We develop a sliding window Pareto generic upper confidence bound (UCB)-based algorithm to solve this problem. We establish an upper bound for the expected regret of our proposed algorithm. Numerical experiments validate the effectiveness of the designed waveforms and show that our policy outperforms state-of-the-art methods.},
+  keywords={},
+  doi={},
+  ISSN={},
+  month={Feb},
+  html={https://ieeexplore.ieee.org/abstract/document/10104580}
+  }
+  
+
+@misc{nouranikoliji2023piecewisestationary,
+      title={Piecewise-Stationary Combinatorial Semi-Bandit with Causally Related Rewards}, 
+      author={Behzad Nourani-Koliji and Steven Bilaj and Amir Rezaei Balef and Setareh Maghsudi},
+      year={2023},
+      eprint={2307.14138},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+	  html={https://arxiv.org/abs/2307.14138}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{baleftowards,
+  title={Towards Bandit-based Optimization for Automated Machine Learning},
+  author={Balef, Amir Rezaei and Vernade, Claire and Eggensperger, Katharina},
+  booktitle={5th Workshop on practical ML for limited/low resource settings},
+  year={2024},
+  html={https://openreview.net/pdf?id=S5da3rzyuk}
 }
